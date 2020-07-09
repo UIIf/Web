@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.hidden{
+  display: none;
+}
+form{
+   position: absolute;
+  top: 10vh;
+  padding: 0;
+  width:50vh;
+  min-width: 20%;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  text-align: center;
+  background-color : #bbb;
+}
+input{
+ margin-bottom: 1.5vh;
+  width: 70%;
+}
+#name{
+  color:#333;
+  padding-top: 2vh;
+  padding-bottom:1.5vh;
+  margin-bottom:1.5vh;
+  background-color : #777;
+}
+
+#ButtonsId{
+  display: flex;
+  padding: 3%;
+}
+
+.BTNContainer{
+  text-align:center;
+  width:50%;
+}
+
+canvas {
+  position: relative;
+  display: block;
+}
+a{
+  background-color: #999;
+  padding:3%;
+  height: 10%;
+  margin-bottom: 1vw;
+  color: #333;
+  
+}
