@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<!--
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
     <meta charset="utf-8" />
--->
 
   </head>
   <body>
    
-   Error
+   <form class = "hidden" id = "forms">
+     <div id="name">Enter ur name</div>
+     <input type="text">
+     <div id="ButtonsId">
+       <div class = "BTNContainer">
+         <a onclick = "ConfirmName()">Ok</a>
+       </div>
+       <div class = "BTNContainer">
+         <a onclick = "DenyName()">Ne ok</a>
+        </div>
+      </div>
+   </form>
+    <script id = "js" src="./Assets/JS/7.js"></script>
   </body>
 </html>
